@@ -19,3 +19,13 @@ return arr.reduce((a,b) => a + b, 0 ) / arr.length
 }
 
 ```
+
+## Write a function that takes an array as argument It should return true if all elements in the array are equal It should return false otherwise 
+
+```jsx 
+function
+myFunction(arr)
+{
+return arr.every(element => element === arr[0]) ? true : false 
+}
+```
