@@ -29,3 +29,13 @@ myFunction(arr)
 return arr.every(element => element === arr[0]) ? true : false 
 }
 ```
+
+## Write a function that takes arguments an arbitrary number of arrays.It should return an array containing the values of all arrays
+
+```jsx 
+function myFunction(...arrays)
+{
+let newArr = [];
+return newArr.concat(...arrays)
+}
+```
