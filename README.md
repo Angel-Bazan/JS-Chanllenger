@@ -1,11 +1,17 @@
 
 # JavaScript Basics 
 
+##  Write a function that takes a string (a) and a number (n) as argument Return the nth character of 'a'
+
+```jsx 
+function myFunction(a, n)
+{
+return a[n-1]
+}
+```
 
 # JavaScript Arrays 
 
-
-# JS-Chanllenger
 
 ##  Write a function that takes an array (a) and a value (n) as argument Return the nth element of 'a'
 
