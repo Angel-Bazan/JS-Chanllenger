@@ -1,6 +1,18 @@
 
 # JavaScript Basics 
 
+## Write a function that takes 6 values (a,b,c,d,e,f) as arguments.Sum a and b.Then substract by c.Then multiply by d and divide by e.Finally raise to the power of f and return the result
+
+```jsx 
+function myFunction
+(a, b, c, d, e, f)
+{
+
+return (((a + b)- c) * d / e )**f
+}
+
+```
+
 ## Write a function that takes a string (a) as argument.Remove the last 3 characters of a.Return the result
 
 ```jsx 
