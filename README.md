@@ -1,6 +1,32 @@
 
 # JavaScript Basics 
 
+## Write a function that takes two strings (a and b) as arguments.Return the number of times a occurs in b
+
+```jsx 
+functionmyFunction(a, b)
+{
+let newB = b.split('');
+let count = 0;
+for (let i = 0; i < newB.length; i++) {
+  if (a === newB[i]) {
+    count += 1;
+  }
+}
+return count
+}
+``` 
+#### or 
+
+```jsx 
+functionmyFunction(a, b)
+{
+
+return b.split(a).length - 1
+
+}
+```
+
 ## Write a function that takes 6 values (a,b,c,d,e,f) as arguments.Sum a and b.Then substract by c.Then multiply by d and divide by e.Finally raise to the power of f and return the result
 
 ```jsx 
