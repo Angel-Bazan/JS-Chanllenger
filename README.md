@@ -2,6 +2,18 @@
 
 # JavaScript Basics 
 
+## Write a function that takes two strings (a and b) as arguments.If a contains b, append b to the beginning of a If not, append it to the end.Return the concatenation
+
+```jsx
+function myFunction
+(a, b)
+{
+
+return a.includes(b) ? b + a : a + b
+
+}
+```
+
 ## Write a function that takes two numbers (a and b) as arguments.If a is smaller than b, divide a by b.Otherwise, multiply both numbers.Return the resulting value
 
 ```jsx 
